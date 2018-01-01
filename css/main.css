@@ -1,0 +1,111 @@
+.carousel-inner img {
+	width: 100%;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.collapse.navbar-collapse {
+	padding: 0;
+}
+
+.panel.panel-default.promotion .panel-body img {
+	width: 100%;
+}
+
+.panel.panel-default.promotion .panel-body img+img {
+	margin-top: 20px;
+}
+
+.container.body {
+	margin-top: 20px;
+}
+
+.panel.panel-default.item .panel-body {
+	padding: 0;
+}
+
+.panel.panel-default.item .panel-body img {
+	width: 100%;
+}
+
+nav.navbar.navbar-default {
+    background-color: #000;
+    border: 0;
+    border-color: #000;
+    border-radius: 0;
+}
+
+nav.navbar.navbar-default.main {
+    background-color: #000;
+    border: 0;
+    border-color: #000;
+    border-radius: 0;
+    border-bottom: 5px solid #ff8000;
+}
+
+nav.navbar.navbar-default .form-control {
+    border-radius: 0;
+}
+
+
+nav.navbar.navbar-default button{
+    border-radius: 0;
+}
+
+nav.navbar.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+nav.navbar.navbar-default ul.nav.navbar-nav.navbar-right a,
+nav.navbar.navbar-default ul.nav.navbar-nav a {
+    color: #fff;
+}
+
+nav.navbar.navbar-default ul.nav.navbar-nav.navbar-right a:hover,
+nav.navbar.navbar-default ul.nav.navbar-nav a:hover {
+    background-color: #eee;
+    color: #000;
+}
+
+nav.navbar.navbar-default ul.nav.navbar-nav.navbar-right li.active a,
+nav.navbar.navbar-default ul.nav.navbar-nav li.active a {
+    background-color: #ff8000;
+    color: #fff;
+}
+
+footer {
+    padding-top: 20px;
+	background-color: #000;
+	color: #fff;
+}
+
+footer .box {
+    margin-bottom: 20px;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+footer h4 {
+    color: #FF9000;
+}
+
+.creadit-right, .creadit-left {
+    display: inline-block;
+    padding-bottom: 20px;    
+}
+
+.creadit-right {
+    float: right;
+}
+
+.creadit-left {
+    float: left;
+}
