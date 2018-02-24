@@ -107,14 +107,14 @@
       </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#">หน้าหลัก</a></li>
-          <li><a href="#">รายการสินค้า</a></li>
-          <li><a href="#">โปรโมชั่น</a></li>
-          <li><a href="#">แจ้งชำระเงิน</a></li>
-          <li><a href="#">วิธีการสั่งซื้อสินค้า</a></li>
-          <li><a href="#">เว็บบอร์ด</a></li>
-          <li><a href="#">เกี่ยวกับเรา</a></li>
-          <li><a href="#">ติดต่อเรา</a></li>
+          <li <?php if($pagename == 'home') echo 'class="active"' ?>><a href="index.php">หน้าหลัก</a></li>
+          <li <?php if($pagename == 'item-list') echo 'class="active"' ?>><a href="item-list.php">รายการสินค้า</a></li>
+          <li <?php if($pagename == 'promotion') echo 'class="active"' ?>><a href="promotion.php">โปรโมชั่น</a></li>
+          <li <?php if($pagename == 'payment') echo 'class="active"' ?>><a href="payment.php">แจ้งชำระเงิน</a></li>
+          <li <?php if($pagename == 'howto') echo 'class="active"' ?>><a href="howto.php">วิธีการสั่งซื้อสินค้า</a></li>
+          <li <?php if($pagename == 'board') echo 'class="active"' ?>><a href="board.php">เว็บบอร์ด</a></li>
+          <li <?php if($pagename == 'about') echo 'class="active"' ?>><a href="about.php">เกี่ยวกับเรา</a></li>
+          <li <?php if($pagename == 'contract-us') echo 'class="active"' ?>><a href="contract-us.php">ติดต่อเรา</a></li>
         </ul>
       </div>
     </div><!-- container -->

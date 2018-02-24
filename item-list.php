@@ -1,8 +1,6 @@
 <?php 
-$pagename = 'home';
+$pagename = 'item-list';
 include("process/header.php");
-
-
 ?>
   <div class="container body">
     <div class="row">
@@ -10,21 +8,6 @@ include("process/header.php");
         <?php include("process/page-left.php") ?>
       </div>
       <div class="col-sm-9">
-        <div class="panel panel-default item">
-          <div class="panel-body">
-            <?php for($i = 0; $i<12; $i++) { ?>
-              ข้อความต้อนรับ 
-            <?php } ?>
-            <img src="img/slideshow.jpg" alt="">
-            <?php for($i = 0; $i<12; $i++) { ?>
-              ข้อความต้อนรับ 
-            <?php } ?>
-            <img src="img/slideshow.jpg" alt="">
-            <?php for($i = 0; $i<12; $i++) { ?>
-              ข้อความต้อนรับ 
-            <?php } ?>
-          </div>
-        </div>
         <h1>สินค้าทั้งหมด</h1>
         <div class="row">
         <?php for($i = 0; $i<12; $i++) { ?>

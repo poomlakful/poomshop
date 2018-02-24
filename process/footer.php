@@ -20,8 +20,8 @@
               <li><a href="#">แจ้งชำระเงิน</a></li>
               <li><a href="#">วิธีการสั่งซื้อสินค้า</a></li>
               <li><a href="#">เว็บบอร์ด</a></li>
-              <li><a href="#">เกี่ยวกับเรา</a></li>
-              <li><a href="#">ติดต่อเรา</a></li>
+              <li><a href="about.php">เกี่ยวกับเรา</a></li>
+              <li><a href="contract-us.php">ติดต่อเรา</a></li>
             </ul>
           </div>
         </div>

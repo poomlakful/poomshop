@@ -2,7 +2,7 @@
   <div class="panel-heading">หมวดหมู่สินค้า</div>
   <div class="panel-body">
     <ul class="nav nav-pills nav-stacked">
-      <li class="active"><a href="#">ทั้งหมด</a></li>
+      <li><a href="#">ทั้งหมด</a></li>
       <li><a href="#">หมวดหมู่ที่ 1</a></li>
       <li><a href="#">หมวดหมู่ที่ 2</a></li>
       <li><a href="#">หมวดหมู่ที่ 3</a></li>

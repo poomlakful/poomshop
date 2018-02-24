@@ -1,8 +1,6 @@
 <?php 
-$pagename = 'home';
+$pagename = 'howto';
 include("process/header.php");
-
-
 ?>
   <div class="container body">
     <div class="row">
