@@ -2,10 +2,10 @@
   <div class="panel-heading">หมวดหมู่สินค้า</div>
   <div class="panel-body">
     <ul class="nav nav-pills nav-stacked">
-      <li><a href="#">ทั้งหมด</a></li>
-      <li><a href="#">หมวดหมู่ที่ 1</a></li>
-      <li><a href="#">หมวดหมู่ที่ 2</a></li>
-      <li><a href="#">หมวดหมู่ที่ 3</a></li>
+      <li><a href="item-list.php?catalog=ทั้งหมด">ทั้งหมด</a></li>
+      <li><a href="item-list.php?catalog=หมวดหมู่ที่ 1">หมวดหมู่ที่ 1</a></li>
+      <li><a href="item-list.php?catalog=หมวดหมู่ที่ 2">หมวดหมู่ที่ 2</a></li>
+      <li><a href="item-list.php?catalog=หมวดหมู่ที่ 3">หมวดหมู่ที่ 3</a></li>
     </ul>
   </div>
 </div>

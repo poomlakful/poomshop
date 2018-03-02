@@ -1,6 +1,11 @@
 <?php 
 $pagename = 'item-list';
 include("process/header.php");
+
+$catalog = 'ทั้งหมด';
+if(isset($_GET['catalog'])) {
+  $catalog = $_GET['catalog'];
+}
 ?>
   <div class="container body">
     <div class="row">
@@ -8,7 +13,7 @@ include("process/header.php");
         <?php include("process/page-left.php") ?>
       </div>
       <div class="col-sm-9">
-        <h1>สินค้าทั้งหมด</h1>
+        <h1>สินค้า<?= $catalog ?></h1>
         <div class="row">
         <?php for($i = 0; $i<12; $i++) { ?>
           <div class="col-xs-6 col-sm-4">
