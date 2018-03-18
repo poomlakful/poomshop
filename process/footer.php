@@ -1,3 +1,136 @@
+<!-- Modal -->
+<div class="modal fade" id="shopping-cart-modal" tabindex="-1" role="dialog" aria-labelledby="shopping-cart-modal-title" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">ตระกร้าสินค้า</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="position: absolute; right: 17px; top: 17px;">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col" style="text-align: center;">#</th>
+              <th scope="col" style="text-align: center;">รูปภาพ</th>
+              <th scope="col" style="text-align: center;">ชื่อ</th>
+              <th scope="col" style="text-align: center;">ราคา</th>
+              <th scope="col" style="text-align: center;">จำนวน</th>
+              <th scope="col" style="text-align: center;">รวม</th>
+              <th scope="col" style="text-align: center;">อื่นๆ</th>
+            </tr>
+          </thead>
+          <tbody>
+            <?php for($i=1;$i<=2;$i++) { ?>
+              <tr>
+                <th scope="row" style="text-align: center;"><?= $i ?></th>
+                <td style="text-align: center;"><img src="img/item.jpg" alt="" style="height: 100px"></td>
+                <td>สินค้าชิ้นที่ <?= $i ?></td>
+                <td style="text-align: center;">299</td>
+                <td style="text-align: center;"><input type="number" value="1" min="1" style="width: 50px"></td>
+                <td style="text-align: center;">299</td>
+                <td style="text-align: center;"><button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span></button></td>
+              </tr>
+            <?php } ?>
+            <tr>
+              <th scope="row" colspan="5" style="text-align: right;">ราคารวมสุทธิ</th>
+              <td  style="text-align: center;">299</td>
+              <td>บาท</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">ปิด</button>
+        <button type="button" class="btn btn-primary">สั่งซื้อสินค้า</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Sign In -->
+<div class="modal fade" id="sign-in-modal" tabindex="-1" role="dialog" aria-labelledby="sign-in-modal-title" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">เข้าสู่ระบบ</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="position: absolute; right: 17px; top: 17px;">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+         <form>
+            <div class="row">
+              <div class="form-group col-xs-12 floating-label-form-group controls">
+                <label>อีเมล</label>
+                <input type="text" class="form-control" placeholder="อีเมล" id="name" required="" data-validation-required-message="Please enter your name.">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group col-xs-12 floating-label-form-group controls" style="margin-bottom: 0">
+                <label>รหัสผ่าน</label>
+                <input type="text" class="form-control" placeholder="รหัสผ่าน" id="name" required="" data-validation-required-message="Please enter your name.">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+         </form>
+         <hr>
+         <button><i class="fa fa-facebook-official"></i> เข้าสู่ระบบด้วย Facebook</button>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">ปิด</button>
+        <button type="button" class="btn btn-primary">เข้าสู่ระบบ</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Register -->
+<div class="modal fade" id="register-modal" tabindex="-1" role="dialog" aria-labelledby="register-title" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">สมัครสมาชิค</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="position: absolute; right: 17px; top: 17px;">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+         <form>
+            <div class="row">        
+              <div class="form-group col-xs-12 floating-label-form-group controls">
+                <label>ชื่อ-นามสกุล</label>
+                <input type="text" class="form-control" placeholder="ชื่อ-นามสกุล" id="name" required="" data-validation-required-message="Please enter your name.">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group col-xs-12 floating-label-form-group controls">
+                <label>อีเมล</label>
+                <input type="text" class="form-control" placeholder="อีเมล" id="name" required="" data-validation-required-message="Please enter your name.">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group col-xs-12 floating-label-form-group controls">
+                <label>รหัสผ่าน</label>
+                <input type="text" class="form-control" placeholder="รหัสผ่าน" id="name" required="" data-validation-required-message="Please enter your name.">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group col-xs-12 floating-label-form-group controls">
+                <label>ยืนยันรหัสผ่าน</label>
+                <input type="text" class="form-control" placeholder="ยืนยันรหัสผ่าน" id="name" required="" data-validation-required-message="Please enter your name.">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+         </form>
+         <hr>
+         <button><i class="fa fa-facebook-official"></i> เข้าสู่ระบบด้วย Facebook</button>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">ปิด</button>
+        <button type="button" class="btn btn-primary">สมัครสมาชิค</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 
   <footer>
     <div class="container">

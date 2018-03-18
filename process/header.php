@@ -25,7 +25,7 @@
 </head>
 <body>
 <header>
-  <nav class="navbar navbar-default top">
+  <nav class="navbar navbar-default top" style="position: fixed; width: 100%; z-index: 1;">
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -62,13 +62,15 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> ตระกร้าสินค้า</a></li>
-          <li><a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i> เข้าสู่ระบบ</a></li>
-          <li><a href="#"><i class="fa fa-user-plus" aria-hidden="true"></i> สมัครสมาชิค</a></li>
+          <li><a href="#" data-toggle="modal" data-target="#shopping-cart-modal"><i class="fa fa-shopping-cart" aria-hidden="true"></i> ตระกร้าสินค้า</a></li>
+          <li><a href="#" data-toggle="modal" data-target="#sign-in-modal"><i class="fa fa-sign-in" aria-hidden="true"></i> เข้าสู่ระบบ</a></li>
+          <li><a href="#" data-toggle="modal" data-target="#register-modal"><i class="fa fa-user-plus" aria-hidden="true"></i> สมัครสมาชิค</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>
+
+  <div style="padding-top: 50.4px"></div>
 
   <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
     <!-- Wrapper for slides -->

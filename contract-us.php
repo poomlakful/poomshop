@@ -8,7 +8,8 @@
          <?php include("process/page-left.php") ?>
       </div>
       <div class="col-sm-9">
-         <form name="sentMessage" id="contactForm" novalidate="">
+         <h1>ติดต่อเรา</h1>
+         <form>
             <div class="row control-group">
                <div class="form-group col-xs-12 floating-label-form-group controls">
                   <label>ชื่อ-นามสกุล</label>

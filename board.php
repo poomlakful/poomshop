@@ -8,6 +8,7 @@ include("process/header.php");
         <?php include("process/page-left.php") ?>
       </div>
       <div class="col-sm-9">
+        <h1>เว็บบอร์ด</h1>
         <?php for($i=0;$i<5;$i++) { ?>
           <div class="panel panel-default item">
             <div class="row" style="margin:0 0 0 -15px">
